@@ -15,28 +15,38 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 ### RandomOverSampler 
 
 - Balanced accuracy score: 64.94%
-- Confustion Matrix:<br>[   71,    30]<br>[ 2153, 14951]
+- Confustion Matrix:<br>![](images/RandomOverSampler_confusion.PNG)
 - Classification Report <br>![](images/RandomOverSampler.PNG)
 
 
 ### SMOTE
-![](images/SMOTE.PNG)
+- Balanced accuracy score: 65.84%
+- Confustion Matrix:<br>![](images/SMOTE_confusion.PNG)
+- Classification Report <br>![](images/SMOTE.PNG)
 
 
 ### ClusterCentroids
-![](images/ClusterCentroids.PNG)
+- Balanced accuracy score: 54.42%
+- Confustion Matrix:<br>![](images/ClusterCentroids_confusion.PNG)
+- Classification Report <br>![](images/ClusterCentroids.PNG)
 
 
 ### SMOTEENN
-![](images/SMOTEENN.PNG)
+- Balanced accuracy score: 66.22%
+- Confustion Matrix:<br>![](images/SMOTEENN_confusion.PNG)
+- Classification Report <br>![](images/SMOTEENN.PNG)
 
 
 ### BalancedRandomForestClassifier
-![](images/BalancedRandomForestClassifier.PNG)
+- Balanced accuracy score: 78.85%
+- Confustion Matrix:<br>![](images/BalancedRandomForestClassifier_confusion.PNG)
+- Classification Report <br>![](images/BalancedRandomForestClassifier.PNG)
 
 
 ### EasyEnsembleClassifier
-![](images/EasyEnsembleClassifier.PNG)
+- Balanced accuracy score: 93.17%
+- Confustion Matrix:<br>![](images/EasyEnsembleClassifier_confusion.PNG)
+- Classification Report <br>![](images/EasyEnsembleClassifier.PNG)
 
 
 ## Analysis Results
